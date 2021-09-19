@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @KovalevaValeria
-- 👀 I’m interested физикой, литературой и языками 
-- 🌱 I’m currently learning в Академическом Университете им. Ж.И. Алфёрова
+- 👀 I'm interested in physics, literature and languages
+- 🌱 I'm currently learning at the Academic University. J.I. Alferova
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me через телеграм @vlr_kovaleva или электронную почту valeria.kovalev@yandex.ru
+- 📫 How to reach me via telegram @vlr_kovaleva or email valeria.kovalev@yandex.ru
 
 <!---
 KovalevaValeria/KovalevaValeria is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
