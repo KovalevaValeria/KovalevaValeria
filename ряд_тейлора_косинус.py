@@ -17,5 +17,5 @@ def my_cos(x):
 help(math.cos)
 help(my_cos)
 
-print(math.cos(0.4))
-print(my_cos(0.4))
+print(math.cos(0.63))
+print(my_cos(0.63))
