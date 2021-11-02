@@ -2,6 +2,9 @@ import turtle
 t = turtle.Pen()
 turtle.bgcolor("black")
 colors = ["red", "yellow", "cyan", "orange"]
+t.hideturtle()
+t.speed(0)
+turtle.delay(0)
 
 for x in range(150):
     t.pencolor(colors[x%4])
