@@ -31,7 +31,6 @@ for x in range(50):
     t.forward(x)
     t.right(91)
 
-
 for x in range(101):
     t.pencolor(colors[x%4])
     t.forward(x)
