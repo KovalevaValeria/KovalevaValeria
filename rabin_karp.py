@@ -68,13 +68,8 @@ class RabinKarpTest(unittest.TestCase):
         self.assertEqual(
             list(range(len(self.text1))), rabin_karp(self.text1, ""),
             msg="Пустая строка должна находиться везде"
-        )
-
-# Должно выдать:
-# --------------
-# Ran ... tests in ...s
-# OK
-
+            
+            
 # Запуск тестов
 if __name__ == '__main__':
     unittest.main()
