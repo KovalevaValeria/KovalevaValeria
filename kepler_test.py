@@ -129,3 +129,5 @@ def plt_kepler(same_fig=False):
         plt.show()
 
 plt_kepler()
+plt_kepler(True)
+
