@@ -1,0 +1,21 @@
+﻿﻿{% extends "base.html" %}
+
+{% block content %}
+<center>
+
+<big>
+<form action="/" method="GET" class="parent">
+Калькулятор для нахождения   <select  class="child" name="func" onselect="1">
+  <option value="gcd">НОД</option>
+  <option value="lcm" {{islcm}}>НОК</option>
+</select> чисел
+  <br>
+  <input type="number" min="0" step="1" value="{{myarg1}}" name="arg1" />
+  <input type="number" min="0" step="1" value="{{myarg2}}" name="arg2" />
+  <input type="submit" value="Найти!">
+</form>
+</big>
+
+{{myvalue}}
+</center>
+{% endblock %}

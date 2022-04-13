@@ -1,0 +1,28 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Мой первый сайт — глупый, но такой милый!</title>
+
+    <style>
+   body {
+    margin: 0; /* Убираем отступы */
+   }
+   .parent {
+    margin-top: 10%; /* Отступы вокруг элемента */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   .child {
+    border: 3px solid #666; /* Параметры рамки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 5px; /* Отступы вокруг */
+   }
+  </style>
+  </head>
+  <body  bgcolor="#FFEFD5">
+    <center><h2>Здраствуй, это мой {{ isclever|random }}, но такой милый сайт!</h2></center>
+
+    {% block content %}
+    -- This should not be rendered --
+    {% endblock %}
+  </body>
+</html>
