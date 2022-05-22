@@ -45,4 +45,3 @@ solution = gauss(a, b)
 
 print(solution)
 print("Макс отклонение компоненты решения:", norm(solution-oob_solution, ord=1))
-
